@@ -21,8 +21,8 @@ https://harshvardhan2412.github.io/Developer-resource-hub/
 # GitHub Repository
 https://github.com/harshvardhan2412/Developer-resource-hub
 
-Project Structure
-developer-resource-hub
+# Project Structure
+Developer-resource-hub
  --index.html
  --style.css
  --script.js

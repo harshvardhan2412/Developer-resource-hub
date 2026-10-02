@@ -17,9 +17,10 @@ Open the project folder.
 Open index.html in a web browser.
 The Developer Resource Hub will open and can be used directly.
 Live Demo
+https://harshvardhan2412.github.io/Developer-resource-hub/
 
 GitHub Repository
-
+https://github.com/harshvardhan2412/Developer-resource-hub
 
 Project Structure
 developer-resource-hub

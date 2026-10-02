@@ -1,8 +1,7 @@
 # Developer-resource-hub
-Developer Resource Hub
 A simple web application that allows users to search and explore useful developer resources.
 
-Features
+# Features
 Search developer resources
 Display resources in an organized layout
 Add and manage resources using JavaScript
@@ -16,10 +15,10 @@ Download or clone this repository.
 Open the project folder.
 Open index.html in a web browser.
 The Developer Resource Hub will open and can be used directly.
-Live Demo
+# Live Demo
 https://harshvardhan2412.github.io/Developer-resource-hub/
 
-GitHub Repository
+# GitHub Repository
 https://github.com/harshvardhan2412/Developer-resource-hub
 
 Project Structure

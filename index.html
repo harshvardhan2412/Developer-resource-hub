@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevResource Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="Gray">
+    <header>
+        <hr color="black" size="6">
+        <h1 align="center">DevResource Hub</h1>
+        <hr color="black" size="6">
+        <p>Useful resources for developers</p>
+    </header>
+    <section class="controls">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search resources..."
+        >
+        <select id="categoryFilter">
+            <option value="All">All Categories</option>
+            <option value="Web Development">Web Development</option>
+            <option value="App Development">App Development</option>
+            <option value="AI/ML">AI/ML</option>
+            <option value="Tools">Tools</option>
+        </select>
+    </section>
+    <main>
+        <div class="heading">
+            <h2 align="center">Resources</h2>
+            <span id="resourceCount"></span>
+        </div>
+        <div id="resourceContainer" class="resource-grid"></div>
+    </main>
+    <section class="add-section"
+    <hr><hr color="black" size="4">
+        <br><h2 align="center">Add a Resource</h2>
+        <form id="resourceForm">
+            <input
+                type="text"
+                id="title"
+                placeholder="Resource title"
+                required
+            >
+            <textarea
+                id="description"
+                placeholder="Resource description"
+                required
+            ></textarea>
+            <select id="category" required>
+                <option value="">Select Category</option>
+                <option value="Web Development">
+                    Web Development
+                </option>
+                <option value="App Development">
+                    App Development
+                </option>
+                <option value="AI/ML">
+                    AI/ML
+                </option>
+                <option value="Tools">
+                    Tools
+                </option>
+            </select>
+            <input
+                type="url"
+                id="link"
+                placeholder="https://example.com"
+                required
+            >
+            <button type="submit">
+                Add Resource
+            </button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2026 DevResource Hub</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
